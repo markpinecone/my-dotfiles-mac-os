@@ -19,6 +19,17 @@ null_ls.setup({
 		--  "formatting.prettier.with({disabled_filetypes: {}})" (see null-ls docs)
 		formatting.prettier, -- js/ts formatter
 		formatting.stylua, -- lua formatter
+		diagnostics.hadolint, -- docker formatter
+		diagnostics.phpstan, -- php linter
+		diagnostics.phpcs, -- php linter
+		formatting.phpcsfixer, -- php formatter
+		diagnostics.yamllint, -- yaml linter
+		diagnostics.zsh, -- zsh linter
+		formatting.cbfmt, -- md codeblocks formatter
+		formatting.golines, -- golang formatter
+		formatting.jq, --json formatter
+		formatting.markdownlint, -- markdown formatter
+		formatting.nginx_beautifier, -- nginx conf file formatter
 		diagnostics.eslint_d.with({ -- js/ts linter
 			-- only enable eslint if root has .eslintrc.js (not in youtube nvim video)
 			condition = function(utils)

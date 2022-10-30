@@ -7,9 +7,12 @@
 - Packer <br/>
 - NeoVim <br/>
 - RipGrep <br/>
+- phpstan <br/>
+- php-cs-fixer <br/>
+- php-code-sniffer <br/>
 - tmux <br/>
-- https://github.com/epk/SF-Mono-Nerd-Font _Nerd-Font_ <br/>
-- https://github.com/iamcco/markdown-preview.nvim _markdown-preview_ <br/>
+- <https://github.com/epk/SF-Mono-Nerd-Font> _Nerd-Font_ <br/>
+- <https://github.com/iamcco/markdown-preview.nvim> _markdown-preview_ <br/>
 
 ```bash
 brew install neovim ripgrep fzf phpstan php-code-sniffer php-cs-fixer
@@ -24,8 +27,8 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 npm install -g intelephense
 npm install -g dockerfile-language-server-nodejs
 
-*https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#intelephense*
-*https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md*
+# *https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#intelephense*
+# *https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md*
 
 
 ```
@@ -40,7 +43,7 @@ ln -s ./alacritty ~/.config/alacritty
 ln -s ./tmux/.tmux.conf ~/.tmux.conf
 ```
 
-Original NeoVim/Tmux config by this guy -> https://github.com/josean-dev/dev-environment-files
+Original NeoVim/Tmux config by this guy -> <https://github.com/josean-dev/dev-environment-files>
 
 #### TODO
 

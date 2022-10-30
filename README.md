@@ -19,6 +19,14 @@ brew install --cask alacritty
 # Install Packer
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+
+# Add LSP dependencies
+npm install -g intelephense
+npm install -g dockerfile-language-server-nodejs
+
+*https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#intelephense* #
+
+
 ```
 
 ### Installation

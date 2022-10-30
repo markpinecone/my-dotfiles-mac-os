@@ -2,11 +2,12 @@
 
 ### Requirements
 
-- npm _for lsp-language-srv-install_
+- npm \_for lsp-language-srv-install <br/>
 - Alacritty <br/>
 - Packer <br/>
 - NeoVim <br/>
-- RipGrep
+- RipGrep <br/>
+- tmux <br/>
 - https://github.com/epk/SF-Mono-Nerd-Font _Nerd-Font_ <br/>
 - https://github.com/iamcco/markdown-preview.nvim _markdown-preview_ <br/>
 

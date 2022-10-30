@@ -35,6 +35,8 @@ return packer.startup(function(use)
 
 	use("bluz71/vim-nightfly-guicolors") -- preferred colorscheme
 
+	use("markpinecone/2077.nvim") -- alternative colorscheme
+
 	use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 
 	use("szw/vim-maximizer") -- maximizes and restores current window
@@ -51,6 +53,9 @@ return packer.startup(function(use)
 
 	-- vs-code like icons
 	use("kyazdani42/nvim-web-devicons")
+
+	-- color-codes
+	use("norcalli/nvim-colorizer.lua")
 
 	-- statusline
 	use("nvim-lualine/lualine.nvim")

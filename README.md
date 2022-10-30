@@ -2,15 +2,16 @@
 
 ### Requirements
 
-- MacOS <br/>
+- npm _for lsp-language-srv-install_
 - Alacritty <br/>
 - Packer <br/>
 - NeoVim <br/>
 - RipGrep
-- SF-Nerd-Font https://github.com/epk/SF-Mono-Nerd-Font <br/>
+- https://github.com/epk/SF-Mono-Nerd-Font _Nerd-Font_ <br/>
+- https://github.com/iamcco/markdown-preview.nvim _markdown-preview_ <br/>
 
 ```bash
-brew install neovim ripgrep
+brew install neovim ripgrep fzf
 brew install --cask alacritty
 
 
@@ -25,10 +26,12 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 ln -s ./nvim ~/.config/nvim
 
 ln -s ./alacritty ~/.config/alacritty
+
+ln -s ./tmux/.tmux.conf ~/.tmux.conf
 ```
 
-Original NeoVim config by this guy -> https://github.com/josean-dev/dev-environment-files
+Original NeoVim/Tmux config by this guy -> https://github.com/josean-dev/dev-environment-files
 
-##TODO
+#### TODO
 
 - automatic setup script

@@ -1,7 +1,7 @@
 live_config_reload: true
 
 window:
-  opacity: 0.90
+  opacity: 0.85
   padding:
     x: 18
     y: 16
@@ -26,27 +26,27 @@ colors:
 
   # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
-    text:   "0x000b1e"
+    text: "0x000b1e"
     cursor: "0x0abdc6"
 
   # Normal colors
   normal:
-    black:   "0x123e7c"
-    red:     "0xff0000"
-    green:   "0xd300c4"
-    yellow:  "0xf57800"
-    blue:    "0x123e7c"
+    black: "0x123e7c"
+    red: "0xff0000"
+    green: "0xd300c4"
+    yellow: "0xf57800"
+    blue: "0x123e7c"
     magenta: "0x711c91"
-    cyan:    "0x0abdc6"
-    white:   "0xd7d7d5"
+    cyan: "0x0abdc6"
+    white: "0xd7d7d5"
 
   # Bright colors
   bright:
-    black:   "0x1c61c2"
-    red:     "0xff0000"
-    green:   "0xd300c4"
-    yellow:  "0xf57800"
-    blue:    "0x00ff00"
+    black: "0x1c61c2"
+    red: "0xff0000"
+    green: "0xd300c4"
+    yellow: "0xf57800"
+    blue: "0x00ff00"
     magenta: "0x711c91"
-    cyan:    "0x0abdc6"
-    white:   "0xd7d7d5"
+    cyan: "0x0abdc6"
+    white: "0xd7d7d5"

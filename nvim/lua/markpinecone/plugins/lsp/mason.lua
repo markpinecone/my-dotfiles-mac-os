@@ -43,6 +43,12 @@ mason_null_ls.setup({
 		"prettier", -- ts/js formatter
 		"stylua", -- lua formatter
 		"eslint_d", -- ts/js linter
+		"blade_formatter", -- blade formatter
+		"hadolint", -- docker formatter
+		"golines", -- golang formatter
+		"jq", -- json formatter
+		"phpcbf", -- php formatter
+		"yamlfmt", -- yaml lint
 	},
 	-- auto-install configured formatters & linters (with null-ls)
 	automatic_installation = true,
